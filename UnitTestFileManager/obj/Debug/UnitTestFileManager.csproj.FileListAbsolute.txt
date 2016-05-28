@@ -1,0 +1,8 @@
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\bin\Debug\UnitTestFileManager.dll
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\bin\Debug\UnitTestFileManager.pdb
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\bin\Debug\File_Manager_ver_2.exe
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\bin\Debug\Ionic.Zip.dll
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\bin\Debug\File_Manager_ver_2.pdb
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\obj\Debug\UnitTestFileManager.csprojResolveAssemblyReference.cache
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\obj\Debug\UnitTestFileManager.dll
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\UnitTestFileManager\obj\Debug\UnitTestFileManager.pdb

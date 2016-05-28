@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40988C6E-ACE8-4D38-9292-29737949FA61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>File_Manager_ver_2</RootNamespace>
+    <AssemblyName>File_Manager_ver_2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\..\..\Downloads\DotNetZipLib-DevKit-v1.9\zip-v1.9\Release\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Archivation\Archivation_Abstract.cs" />
+    <Compile Include="Model\Archivation\ArchiveThread.cs" />
+    <Compile Include="Model\Archivation\Archive_Await.cs" />
+    <Compile Include="Model\Archivation\Archive_Delegate.cs" />
+    <Compile Include="Model\Archivation\Archive_Parallel.cs" />
+    <Compile Include="Model\Archivation\Archive_Task.cs" />
+    <Compile Include="Model\Archivation\Archive_Thread.cs" />
+    <Compile Include="Model\Exception\MyException.cs" />
+    <Compile Include="Model\MyFileSystem\1st level IEntry\EntriesComparer.cs" />
+    <Compile Include="Model\MyFileSystem\2nd level classes\IDirectory.cs" />
+    <Compile Include="Model\MyFileSystem\2nd level classes\IFile.cs" />
+    <Compile Include="Model\Classes\MyFileStream.cs" />
+    <Compile Include="Model\Classes\FileFactory.cs" />
+    <Compile Include="Model\MyFileSystem\3rd level classes\MyDirectory.cs" />
+    <Compile Include="Model\MyFileSystem\3rd level classes\DotNETDirectory.cs" />
+    <Compile Include="Model\MyFileSystem\3rd level classes\DotNETFile.cs" />
+    <Compile Include="Model\MyFileSystem\3rd level classes\MyFile.cs" />
+    <Compile Include="Model\Classes\FileInfoExtension.cs" />
+    <Compile Include="Model\MyFileSystem\3rd level classes\MyZip.cs" />
+    <Compile Include="Model\Classes\IFileSystemVisitor.cs" />
+    <Compile Include="Model\FindInfoInFile\FindInfoAwait.cs" />
+    <Compile Include="Model\FindInfoInFile\FindInfoDelegate.cs" />
+    <Compile Include="Model\FindInfoInFile\FindInfoParallel.cs" />
+    <Compile Include="Model\FindInfoInFile\FindInfoTask.cs" />
+    <Compile Include="Model\FindInfoInFile\FindInfoThread.cs" />
+    <Compile Include="Model\FindInfoInFile\FindInfo_Abstract.cs" />
+    <Compile Include="Model\FindInfoInFile\MultiRegex.cs" />
+    <Compile Include="Model\Classes\Visitor.cs" />
+    <Compile Include="Model\FindInfoInFile\InterFaces\IFindInfo.cs" />
+    <Compile Include="Model\FindInfoInFile\ZipFindInfo.cs" />
+    <Compile Include="Presenter\EventArgs\EventArgsDoubleClick.cs" />
+    <Compile Include="Presenter\ModelPresenterStatistics.cs" />
+    <Compile Include="Model\MyFileSystem\1st level IEntry\IEntry.cs" />
+    <Compile Include="View\ViewInterFaces\ITXTStatistics.cs" />
+    <Compile Include="View\TextStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TextStatistics.Designer.cs">
+      <DependentUpon>TextStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewInterFaces\IMainAction.cs" />
+    <Compile Include="View\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewInterFaces\INavigation.cs" />
+    <Compile Include="Presenter\ModelPresenter_Main.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\RenameDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RenameDeleteForm.Designer.cs">
+      <DependentUpon>RenameDeleteForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\RenameDeleteForm.resx">
+      <DependentUpon>RenameDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TextStatistics.resx">
+      <DependentUpon>TextStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

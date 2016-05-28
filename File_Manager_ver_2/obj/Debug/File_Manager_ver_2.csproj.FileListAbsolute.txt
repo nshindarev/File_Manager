@@ -1,0 +1,12 @@
+c:\users\nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\bin\Debug\File_Manager_ver_2.exe.config
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\bin\Debug\File_Manager_ver_2.exe
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\bin\Debug\File_Manager_ver_2.pdb
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.csprojResolveAssemblyReference.cache
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.MainForm.resources
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.Properties.Resources.resources
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.csproj.GenerateResource.Cache
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.exe
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.pdb
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.View.RenameDeleteForm.resources
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\obj\Debug\File_Manager_ver_2.TextStatistics.resources
+C:\Users\Nshindarev\documents\visual studio 2013\Projects\File_Manager_ver_2\File_Manager_ver_2\bin\Debug\Ionic.Zip.dll
